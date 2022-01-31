@@ -5,13 +5,14 @@ $sm: 576px;
 $md: 768px;
 $lg: 1200px;
 
-$gutter: 25px;
+$gutter: 15px;
 
 @mixin col-size($width) {
   max-width: $width;
-  padding-right: $gutter;
-  padding-left: $gutter;
-  padding-top: $gutter;
+  margin-right: $gutter;
+  margin-left: $gutter;
+  margin-top: $gutter;
+  margin-bottom: $gutter;
 }
 @for $i from 1 through $gd-col {
   .col-#{$i} {
