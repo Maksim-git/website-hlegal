@@ -135,363 +135,331 @@ a {
 
 .col-1 {
   max-width: 8.33333%;
-  margin-right: 15px;
-  margin-left: 15px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
 }
 
 .col-2 {
   max-width: 16.66667%;
-  margin-right: 15px;
-  margin-left: 15px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
 }
 
 .col-3 {
   max-width: 25%;
-  margin-right: 15px;
-  margin-left: 15px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
 }
 
 .col-4 {
   max-width: 33.33333%;
-  margin-right: 15px;
-  margin-left: 15px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
 }
 
 .col-5 {
   max-width: 41.66667%;
-  margin-right: 15px;
-  margin-left: 15px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
 }
 
 .col-6 {
   max-width: 50%;
-  margin-right: 15px;
-  margin-left: 15px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
 }
 
 .col-7 {
   max-width: 58.33333%;
-  margin-right: 15px;
-  margin-left: 15px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
 }
 
 .col-8 {
   max-width: 66.66667%;
-  margin-right: 15px;
-  margin-left: 15px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
 }
 
 .col-9 {
   max-width: 75%;
-  margin-right: 15px;
-  margin-left: 15px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
 }
 
 .col-10 {
   max-width: 83.33333%;
-  margin-right: 15px;
-  margin-left: 15px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
 }
 
 .col-11 {
   max-width: 91.66667%;
-  margin-right: 15px;
-  margin-left: 15px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
 }
 
 .col-12 {
   max-width: 100%;
-  margin-right: 15px;
-  margin-left: 15px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
 }
 
 @media screen and (min-width: 576px) {
   .col-sm-1 {
     max-width: 8.33333%;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
   }
   .col-sm-2 {
     max-width: 16.66667%;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
   }
   .col-sm-3 {
     max-width: 25%;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
   }
   .col-sm-4 {
     max-width: 33.33333%;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
   }
   .col-sm-5 {
     max-width: 41.66667%;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
   }
   .col-sm-6 {
     max-width: 50%;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
   }
   .col-sm-7 {
     max-width: 58.33333%;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
   }
   .col-sm-8 {
     max-width: 66.66667%;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
   }
   .col-sm-9 {
     max-width: 75%;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
   }
   .col-sm-10 {
     max-width: 83.33333%;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
   }
   .col-sm-11 {
     max-width: 91.66667%;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
   }
   .col-sm-12 {
     max-width: 100%;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .col-md-1 {
     max-width: 8.33333%;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
   }
   .col-md-2 {
     max-width: 16.66667%;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
   }
   .col-md-3 {
     max-width: 25%;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
   }
   .col-md-4 {
     max-width: 33.33333%;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
   }
   .col-md-5 {
     max-width: 41.66667%;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
   }
   .col-md-6 {
     max-width: 50%;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
   }
   .col-md-7 {
     max-width: 58.33333%;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
   }
   .col-md-8 {
     max-width: 66.66667%;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
   }
   .col-md-9 {
     max-width: 75%;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
   }
   .col-md-10 {
     max-width: 83.33333%;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
   }
   .col-md-11 {
     max-width: 91.66667%;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
   }
   .col-md-12 {
     max-width: 100%;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .col-lg-1 {
     max-width: 8.33333%;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
   }
   .col-lg-2 {
     max-width: 16.66667%;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
   }
   .col-lg-3 {
     max-width: 25%;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
   }
   .col-lg-4 {
     max-width: 33.33333%;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
   }
   .col-lg-5 {
     max-width: 41.66667%;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
   }
   .col-lg-6 {
     max-width: 50%;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
   }
   .col-lg-7 {
     max-width: 58.33333%;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
   }
   .col-lg-8 {
     max-width: 66.66667%;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
   }
   .col-lg-9 {
     max-width: 75%;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
   }
   .col-lg-10 {
     max-width: 83.33333%;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
   }
   .col-lg-11 {
     max-width: 91.66667%;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
   }
   .col-lg-12 {
     max-width: 100%;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
   }
 }
 
 body {
   font-family: "Montserrat", sans-serif;
+}
+
+.br-top-left {
+  border-radius: 15px 0 0 0;
+}
+
+.br-top-right {
+  border-radius: 0 15px 0 0;
+}
+
+.br-bottom-right {
+  border-radius: 0 0 15px 0;
+}
+
+.br-bottom-left {
+  border-radius: 0 0 0 15px;
 }
 
 .section-gradient {
@@ -659,7 +627,7 @@ body {
   background-color: #cacadb;
   height: 6px;
   width: 6px;
-  margin: 5px;
+  margin: 9px;
 }
 
 .header-grid__address {
@@ -921,6 +889,8 @@ body {
 .partners {
   display: flex;
   flex-direction: column;
+  max-width: 1720px;
+  margin: 0 auto;
 }
 
 .partners__title {
@@ -935,7 +905,7 @@ body {
 }
 
 .grid-wrap {
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(4, 430px);
@@ -964,6 +934,7 @@ body {
 .post {
   background-color: white;
   border-radius: 9px;
+  margin: 10px -15px;
 }
 
 .post__content__title {
@@ -1002,7 +973,7 @@ body {
 
 /* Footer*/
 .footer {
-  padding: 0px 160px;
+  padding: 30px 160px;
   background-color: #f5f5fa;
 }
 
@@ -1018,4 +989,60 @@ body {
 
 .footer__contact {
   display: flex;
+  align-items: center;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__address {
+  padding: 0 0 21px;
+  display: flex;
+  align-items: center;
+}
+
+.footer__address-link {
+  color: #323264;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer__map {
+  color: #24a3ff;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.footer__fa-facebook {
+  color: #24a3ff;
+}
+
+.footer__phone {
+  color: #46466e;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.header__email {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #24a3ff;
+}
+
+.footer__protection-rights {
+  color: #b3b3ba;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 20px;
 }

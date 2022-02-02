@@ -9,10 +9,9 @@ $gutter: 15px;
 
 @mixin col-size($width) {
   max-width: $width;
-  margin-right: $gutter;
-  margin-left: $gutter;
-  margin-top: $gutter;
-  margin-bottom: $gutter;
+  padding-right: $gutter;
+  padding-left: $gutter;
+  padding-top: $gutter;
 }
 @for $i from 1 through $gd-col {
   .col-#{$i} {

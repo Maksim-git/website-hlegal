@@ -4,7 +4,23 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+$br-top-left: 15px 0 0 0;
+$br-top-right: 0 15px 0 0;
+$br-bottom-right: 0 0 15px 0;
+$br-bottom-left: 0 0 0 15px;
 
+.br-top-left {
+  border-radius: $br-top-left;
+}
+.br-top-right {
+  border-radius: $br-top-right;
+}
+.br-bottom-right {
+  border-radius: $br-bottom-right;
+}
+.br-bottom-left {
+  border-radius: $br-bottom-left;
+}
 .section-gradient {
   background: linear-gradient(
     228.57deg,
@@ -164,7 +180,7 @@ body {
   background-color: $lavender-grey;
   height: 6px;
   width: 6px;
-  margin: 5px;
+  margin: 9px;
 }
 .header-grid__address {
   font-family: Montserrat;
@@ -396,6 +412,8 @@ body {
 .partners {
   display: flex;
   flex-direction: column;
+  max-width: 1720px;
+  margin: 0 auto;
 }
 .partners__title {
   text-align: center;
@@ -408,7 +426,7 @@ body {
   text-transform: uppercase;
 }
 .grid-wrap {
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(4, 430px);
@@ -433,6 +451,7 @@ body {
 .post {
   background-color: $white;
   border-radius: 9px;
+  margin: 10px -15px;
 }
 .post__content {
   &__title {
@@ -468,7 +487,7 @@ body {
 }
 /* Footer*/
 .footer {
-  padding: 0px 160px;
+  padding: 30px 160px;
   background-color: $ghost-white;
   &__underscore {
     border: 2px solid $bright-gray;
@@ -476,9 +495,62 @@ body {
     margin-bottom: 30px;
   }
 }
-.footer__address {
-  display: flex;
+.footer {
+  &__address {
+    display: flex;
+  }
+  &__contact {
+    display: flex;
+    align-items: center;
+  }
 }
-.footer__contact {
+.footer__content {
   display: flex;
+  justify-content: space-between;
+}
+.footer__address {
+  padding: 0 0 21px;
+  display: flex;
+  align-items: center;
+}
+.footer__address-link {
+  color: $dark-blue;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer__map {
+  color: $light-blue;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.footer__fa-facebook {
+  color: $light-blue;
+}
+
+.footer__phone {
+  color: $flower-blue;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+.header__email {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: $light-blue;
+}
+.footer__protection-rights {
+  color: $gray;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 20px;
 }
