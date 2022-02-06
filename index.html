@@ -4,6 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
     <title>hlegal</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -30,15 +41,30 @@
         </div>
         <div class="section-first">
           <header class="section-first__header">
-            <div class="container">
-              <div class="header-grid">
+            <div class="container-header">
+              <div class="header-grid navbar navbar-expand-md navbar-dark">
                 <div class="header-grid__logo">
-                  <object data="./images/svg/logo-company.svg"></object>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <object data="./images/svg/logo-company.svg"></object>
+                    <button
+                      class="navbar-toggler"
+                      type="button"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#offcanvasNavbar"
+                      aria-controls="offcanvasNavbar"
+                    >
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  </div>
                 </div>
                 <div class="header-grid__info">
-                  <button class="header-grid__button">ук</button>
-                  <button class="header-grid__button">ру</button>
-                  <button class="header-grid__button">en</button>
+                  <div class="header-grid__info-lang d-flex flex-nowrap">
+                    <button class="header-grid__button">ук</button>
+                    <button class="header-grid__button">ру</button>
+                    <button class="header-grid__button active">en</button>
+                  </div>
                   <div class="header-grid__circle"></div>
                   <a
                     target="_blanck"
@@ -58,53 +84,146 @@
                     ><i class="fab fa-facebook"></i
                   ></a>
                 </div>
-                <div class="header-grid__nav">
-                  <ul class="header-grid__nav-list">
-                    <li class="header-grid__nav-item">
-                      <a class="header-grid__nav-link" href="#">about us</a>
+                <div
+                  class="header-grid__nav offcanvas offcanvas-bottom"
+                  id="offcanvasNavbar"
+                >
+                  <div
+                    class="d-block d-md-none offcanvas-header d-flex justify-content-end"
+                  >
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    >
+                      <!-- <i class="icon fas fa-times"></i> -->
+                    </button>
+                  </div>
+                  <!-- fix -->
+                  <ul class="nav-menu d-flex flex-column flex-md-row">
+                    <li class="nav-menu__item">
+                      <a class="nav-menu__link" href="#">about us</a>
                     </li>
-                    <li class="header-grid__nav-item">
-                      <a class="header-grid__nav-link" href="#">services</a>
+                    <li class="nav-menu__item">
+                      <a class="nav-menu__link" href="#">services</a>
                     </li>
-                    <li class="header-grid__nav-item">
-                      <a class="header-grid__nav-link" href="#">team</a>
+                    <li class="nav-menu__item">
+                      <a class="nav-menu__link" href="#">team</a>
                     </li>
-                    <li class="header-grid__nav-item">
-                      <a class="header-grid__nav-link" href="#">publications</a>
+                    <li class="nav-menu__item">
+                      <a class="nav-menu__link" href="#">publications</a>
                     </li>
-                    <li class="header-grid__nav-item">
-                      <a class="header-grid__nav-link" href="#">contact</a>
+                    <li class="nav-menu__item">
+                      <a class="nav-menu__link" href="#">contact</a>
                     </li>
                   </ul>
+                  <!-- fix -->
                 </div>
               </div>
             </div>
           </header>
+
           <main class="section-first__title">you legal solutions provider</main>
           <div class="section-first__button">
-            <a class="section-first__circle" href="#"></a>
+            <a class="section-first__circle" href="#carousel-menu"></a>
           </div>
         </div>
       </div>
+
       <!-- carousel -->
-      <div class="block-carousel">
-        <div class="block-carousel__frame">
-          <h3 class="block-carousel__header">Consistent</h3>
-          <h3 class="block-carousel__header">Customer oriented</h3>
-          <h3 class="block-carousel__header">Innovative</h3>
-          <h3 class="block-carousel__header">Business oriented</h3>
-        </div>
-        <div class="block-carousel__line"></div>
-        <div class="block-carousel__content block-content">
-          <h4 class="block-content__title">
-            We turn the idea of legal services
-          </h4>
-          <p class="block-content-txt">
-            Consolidating many years of experience and practice, the company's
-            lawyers accompany complex projects and achieve a number of important
-            decisions for the industry. Many of them form the practice of
-            applying the law of the sea in Ukraine.
-          </p>
+
+      <div class="section-second" id="carousel-menu">
+        <div class="container container-sm">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel carousel-txt slide carousel-fade"
+            data-bs-ride="carousel"
+            data-bs-interval="false"
+          >
+            <div class="carousel-indicators">
+              <div class="carousel-indicators__inner">
+                <button
+                  type="button"
+                  data-bs-slide-to="0"
+                  data-bs-target="#carouselExampleIndicators"
+                  class="active carousel-indicators__button"
+                >
+                  <h4>Consistent</h4>
+                </button>
+                <button
+                  type="button"
+                  data-bs-slide-to="1"
+                  data-bs-target="#carouselExampleIndicators"
+                  class="carousel-indicators__button"
+                >
+                  <h4>Customer oriented</h4>
+                </button>
+                <button
+                  type="button"
+                  data-bs-slide-to="2"
+                  data-bs-target="#carouselExampleIndicators"
+                  class="carousel-indicators__button"
+                >
+                  <h4>Innovative</h4>
+                </button>
+                <button
+                  type="button"
+                  data-bs-slide-to="3"
+                  data-bs-target="#carouselExampleIndicators"
+                  class="carousel-indicators__button"
+                >
+                  <h4>Business oriented</h4>
+                </button>
+              </div>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <h5 class="txt--white carousel-item__title">
+                  We turn the idea of legal services
+                </h5>
+                <p class="txt--white carousel-item__txt">
+                  Consolidating many years of experience and practice, the
+                  company's lawyers accompany complex projects and achieve a
+                  number of important decisions for the industry. Many of them
+                  form the practice of applying the law of the sea in Ukraine.
+                </p>
+              </div>
+              <div class="carousel-item">
+                <h5 class="txt--white carousel-item__title">
+                  We turn the idea of legal customer oriented
+                </h5>
+                <p class="txt--white carousel-item__txt">
+                  Consolidating many years of experience and practice, the
+                  company's lawyers accompany complex projects and achieve a
+                  number of important decisions for the industry. Many of them
+                  form the practice of applying the law of the sea in Ukraine.
+                </p>
+              </div>
+              <div class="carousel-item">
+                <h5 class="txt--white carousel-item__title">
+                  We turn the idea of legal customer innovative
+                </h5>
+                <p class="txt--white carousel-item__txt">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+                  at fuga fugit sit vel possimus praesentium, quibusdam,
+                  voluptatum hic, consequuntur velit unde perspiciatis ex! Vitae
+                  sint inventore totam eos adipisci?
+                </p>
+              </div>
+              <div class="carousel-item">
+                <h5 class="txt--white carousel-item__title">
+                  We turn the idea of legal customer business oriented
+                </h5>
+                <p class="txt--white carousel-item__txt">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Magnam incidunt nisi vitae autem eveniet assumenda obcaecati
+                  repudiandae at, sit nesciunt placeat ipsa ipsum natus hic est
+                  sequi voluptatum numquam dolore.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <!-- card content -->
@@ -112,7 +231,7 @@
       <div class="card-content">
         <a class="card-content__link" href="#">Services</a>
         <h4 class="card-content__title">What can we do better than others?</h4>
-        <div class="container">
+        <div class="container-card">
           <div class="row">
             <div class="col-sm-12 col-md-4 col-lg-3">
               <object class="col__svg" data="./images/svg/svg-1.svg"></object>
@@ -182,6 +301,7 @@
         </div>
       </div>
     </div>
+
     <!-- block-team -->
     <div class="team">
       <div class="team__container">
@@ -208,68 +328,65 @@
     </div>
 
     <!-- partners -->
+
     <div class="partners">
       <h4 class="partners__title">They already trust us</h4>
-      <div class="wrap">
-        <div class="grid-wrap">
-          <div class="grid-item">
-            <img class="br-top-left" src="./images/png/hillel.png" alt="" />
-          </div>
 
-          <div class="grid-item">
-            <img src="./images/png/wanna_biz.png" alt="" />
-          </div>
+      <div class="grid-wrap">
+        <div class="grid-item">
+          <img class="br-top-left" src="./images/png/hillel.png" alt="" />
+        </div>
 
-          <div class="grid-item">
-            <img src="./images/png/tapgerine.png" alt="" />
-          </div>
+        <div class="grid-item">
+          <img src="./images/png/wanna_biz.png" alt="" />
+        </div>
 
-          <div class="grid-item">
-            <img class="br-top-right" src="./images/png/3d_look.png" alt="" />
-          </div>
+        <div class="grid-item">
+          <img src="./images/png/tapgerine.png" alt="" />
+        </div>
 
-          <div class="grid-item">
-            <img src="./images/png/arangear.png" alt="" />
-          </div>
+        <div class="grid-item">
+          <img class="br-top-right" src="./images/png/3d_look.png" alt="" />
+        </div>
 
-          <div class="grid-item">
-            <img src="./images/png/adtelligent.png" alt="" />
-          </div>
+        <div class="grid-item">
+          <img src="./images/png/arangear.png" alt="" />
+        </div>
 
-          <div class="grid-item">
-            <img src="./images/png/clickku.png" alt="" />
-          </div>
+        <div class="grid-item">
+          <img src="./images/png/adtelligent.png" alt="" />
+        </div>
 
-          <div class="grid-item">
-            <img src="./images/png/eco_leasing.png" alt="" />
-          </div>
+        <div class="grid-item">
+          <img src="./images/png/clickku.png" alt="" />
+        </div>
 
-          <div class="grid-item">
-            <img
-              class="br-bottom-left"
-              src="./images/png/infra_tek.png"
-              alt=""
-            />
-          </div>
+        <div class="grid-item">
+          <img src="./images/png/eco_leasing.png" alt="" />
+        </div>
 
-          <div class="grid-item">
-            <img src="./images/png/city_park.png" alt="" />
-          </div>
+        <div class="grid-item">
+          <img class="br-bottom-left" src="./images/png/infra_tek.png" alt="" />
+        </div>
 
-          <div class="grid-item">
-            <img src="./images/png/art-print.png" alt="" />
-          </div>
+        <div class="grid-item">
+          <img src="./images/png/city_park.png" alt="" />
+        </div>
 
-          <div class="grid-item">
-            <img
-              class="br-bottom-right"
-              src="./images/png/ultimate_card.png"
-              alt=""
-            />
-          </div>
+        <div class="grid-item">
+          <img src="./images/png/art-print.png" alt="" />
+        </div>
+
+        <div class="grid-item">
+          <img
+            class="br-bottom-right"
+            src="./images/png/ultimate_card.png"
+            alt=""
+          />
         </div>
       </div>
     </div>
+
     <!-- Publications -->
     <div class="publications">
       <a class="card-content__link" href="#">Publications</a>
