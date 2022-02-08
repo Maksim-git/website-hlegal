@@ -565,7 +565,7 @@ $br-bottom-left: 0 0 0 15px;
   display: flex;
   flex-direction: column;
   max-width: 1720px;
-  margin: 0 auto;
+  margin: 0 auto 60px;
 }
 .partners__title {
   text-align: center;
@@ -578,19 +578,50 @@ $br-bottom-left: 0 0 0 15px;
   text-transform: uppercase;
 }
 .grid-wrap {
-  display: flex;
+  display: grid;
   flex-wrap: wrap;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .grid-item {
-  height: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
 }
+
+.responsive-img {
+  width: 100%;
+  object-fit: cover;
+  min-height: 120px;
+}
+
+@media screen and (max-width: $xl) {
+  .partners {
+    margin-bottom: 0px;
+  }
+  .br-top-left,
+  .br-top-right,
+  .br-bottom-right,
+  .br-bottom-left {
+    border-radius: 0px;
+  }
+}
+@media screen and (max-width: $lg) {
+  .grid-wrap {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width: $md) {
+  .grid-wrap {
+    grid-template-columns: 1fr;
+  }
+  .display-none {
+    display: none;
+  }
+}
 /* Publications */
 .publications {
-  padding: 30px 160px;
+  padding: 30px 73px;
   background-color: $ghost-white;
   &__title {
     margin-bottom: 30px;
@@ -603,11 +634,16 @@ $br-bottom-left: 0 0 0 15px;
     width: 100%;
   }
 }
+
 .post {
   background-color: $white;
   border-radius: 9px;
-  margin: 10px -15px;
+  // max-width: 513px;
+  // margin: 10px;
+  padding: 0;
+  margin: 10px 0;
 }
+
 .post__content {
   &__title {
     color: $light-blue;
@@ -640,9 +676,10 @@ $br-bottom-left: 0 0 0 15px;
   color: $black;
   padding-top: 15px;
 }
+
 /* Footer*/
 .footer {
-  padding: 30px 160px;
+  padding: 30px 56px;
   background-color: $ghost-white;
   &__underscore {
     border: 2px solid $bright-gray;
@@ -662,6 +699,7 @@ $br-bottom-left: 0 0 0 15px;
 .footer__content {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .footer__address {
   padding: 0 0 21px;
@@ -708,4 +746,25 @@ $br-bottom-left: 0 0 0 15px;
   font-family: Montserrat;
   font-size: 16px;
   line-height: 20px;
+}
+
+@media screen and (max-width: $md) {
+  .footer__content,
+  .footer__address,
+  .footer__contact {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer__address-link,
+  .footer__fa-facebook,
+  .footer__phone {
+    margin-bottom: 10px;
+  }
+  .footer__email {
+    margin-bottom: 30px;
+  }
+  .footer__protection-rights {
+    display: flex;
+    justify-content: center;
+  }
 }
