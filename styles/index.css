@@ -1119,8 +1119,13 @@ body {
 
 /* Publications */
 .publications {
-  padding: 30px 73px;
   background-color: #f5f5fa;
+}
+
+.publications__content {
+  max-width: 1720px;
+  margin: 0 auto;
+  padding: 30px 60px 0;
 }
 
 .publications__title {
@@ -1141,6 +1146,22 @@ body {
   border-radius: 9px;
   padding: 0;
   margin: 10px 0;
+}
+
+.row-test {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 30px;
+}
+
+.test-margin {
+  margin: 0;
+  padding: 0 15px;
+}
+
+.test-maks {
+  margin: 0 43px;
 }
 
 .post__content__title {
@@ -1196,6 +1217,11 @@ body {
 .footer__contact {
   display: flex;
   align-items: center;
+}
+
+.test__footer {
+  max-width: 1519px;
+  margin: 0 auto;
 }
 
 .footer__content {
