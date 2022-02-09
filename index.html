@@ -15,7 +15,7 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
-    <title>hlegal</title>
+    <title>Hlegal</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -96,17 +96,18 @@
                       class="btn-close"
                       data-bs-dismiss="offcanvas"
                       aria-label="Close"
-                    >
-                      <!-- <i class="icon fas fa-times"></i> -->
-                    </button>
+                    ></button>
                   </div>
-                  <!-- fix -->
                   <ul class="nav-menu d-flex flex-column flex-md-row">
                     <li class="nav-menu__item">
                       <a class="nav-menu__link" href="#">about us</a>
                     </li>
                     <li class="nav-menu__item">
-                      <a class="nav-menu__link" href="#">services</a>
+                      <a
+                        class="nav-menu__link"
+                        href="./page-services/page-services.html"
+                        >services</a
+                      >
                     </li>
                     <li class="nav-menu__item">
                       <a class="nav-menu__link" href="#">team</a>
@@ -118,12 +119,10 @@
                       <a class="nav-menu__link" href="#">contact</a>
                     </li>
                   </ul>
-                  <!-- fix -->
                 </div>
               </div>
             </div>
           </header>
-
           <main class="section-first__title">you legal solutions provider</main>
           <div class="section-first__button">
             <a class="section-first__circle" href="#carousel-menu"></a>
@@ -229,8 +228,10 @@
       <!-- card content -->
 
       <div class="card-content">
-        <a class="card-content__link" href="#">Services</a>
-        <h4 class="card-content__title">What can we do better than others?</h4>
+        <a class="card-content__link link-content" href="#">Services</a>
+        <h4 class="card-content__title title">
+          What can we do better than others?
+        </h4>
         <div class="container-card">
           <div class="row">
             <div class="col-sm-12 col-md-4 col-lg-3">
@@ -311,7 +312,7 @@
           alt=""
         />
         <div class="team__content">
-          <a class="card-content__link" href="#">Команда</a>
+          <a class="team__link link-content" href="#">Команда</a>
           <p class="team__txt">
             Ми звикли брати на себе відповідальність та завжди гарантуємо чесну,
             вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.
@@ -433,54 +434,45 @@
 
     <!-- Publications -->
     <div class="publications">
-      <div class="publications__content">
-        <div class="test-maks">
-          <a class="card-content__link" href="#">Publications</a>
-          <h4 class="card-content__title publications__title">
-            We have something to tell
-          </h4>
-        </div>
-
-        <div class="row-test">
-          <div class="test-margin col-lg-4 col-md-6">
-            <div class="post">
+      <div class="publications__wrapper">
+        <a class="link-content" href="#">Publications</a>
+        <h4 class="title publications__title">We have something to tell</h4>
+        <!--  -->
+        <div class="row">
+          <div class="row__content col-lg-4 col-md-6">
+            <div class="row__post post">
               <img
-                class="publications__img"
+                class="post__img"
                 src="./images/png/Equity_associate.png"
                 alt="Equity associate"
               />
               <div class="post__content">
-                <h5 class="post__content__title">Equity associate</h5>
-                <h6 class="publications__sub-title post__content__sub-title">
-                  April 22
-                </h6>
-                <div class="post__content__underlining"></div>
-                <p class="post__content__txt">
+                <h5 class="post__title">Equity associate</h5>
+                <h6 class="post__sub-title">April 22</h6>
+                <div class="boundary-line"></div>
+                <p class="post__txt">
                   I'm a jun on projects. I am a co-owner of a law firm. How it
                   happened. Before entering my parents told me that if I…
                 </p>
               </div>
             </div>
           </div>
-
           <!--  -->
-          <div class="test-margin col-lg-4 col-md-6">
-            <div class="post">
+          <div class="row__content col-lg-4 col-md-6">
+            <div class="row__post post">
               <img
-                class="publications__img"
+                class="post__img"
                 src="./images/png/gdpr.png"
                 alt="Equity associate"
               />
               <div class="post__content">
-                <h5 class="post__content__title">
+                <h5 class="post__title">
                   Penalty for the Good Corporation: what will happen to Google
                   and others for violating the GDPR
                 </h5>
-                <h6 class="publications__sub-title post__content__sub-title">
-                  September 29
-                </h6>
-                <div class="post__content__underlining"></div>
-                <p class="post__content__txt">
+                <h6 class="post__sub-title">September 29</h6>
+                <div class="boundary-line"></div>
+                <p class="post__txt">
                   And why the recovery of 50 million euros could be a fateful
                   precedent According to Mind.ua January 21 National Commission
                   for Data Protection.
@@ -489,20 +481,18 @@
             </div>
           </div>
           <!--  -->
-          <div class="test-margin col-lg-4 col-md-12">
-            <div class="post">
+          <div class="row__content col-lg-4 col-md-12">
+            <div class="row__post post">
               <img
-                class="publications__img"
+                class="post__img"
                 src="./images/png/Millennial_Testament.png"
                 alt="Equity associate"
               />
               <div class="post__content">
-                <h5 class="post__content__title">Millennial Testament</h5>
-                <h6 class="publications__sub-title post__content__sub-title">
-                  August 19
-                </h6>
-                <div class="post__content__underlining"></div>
-                <p class="post__content__txt">
+                <h5 class="post__title">Millennial Testament</h5>
+                <h6 class="post__sub-title">August 19</h6>
+                <div class="boundary-line"></div>
+                <p class="post__txt">
                   What and how modern vloggers, opinion leaders and
                   crypto-millionaires will inherit A typical legacy of the
                   Ukrainian generation X looks like this: an apartment in…
@@ -515,8 +505,9 @@
     </div>
 
     <!-- Footer -->
-    <div class="footer">
-      <div class="test__footer">
+
+    <div class="footer footer__bg">
+      <div class="footer__wrap">
         <div class="footer__underscore"></div>
         <div class="footer__content">
           <div class="footer__data">

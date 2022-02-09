@@ -537,14 +537,15 @@ body {
   justify-content: space-between;
 }
 
-.section-first__header, .section-first__title, .section-first__button {
+.section-first__header {
   padding: 50px 50px 0;
   font-size: 26px;
   color: white;
 }
 
 .section-first__title {
-  padding: 0px 50px 50px;
+  color: white;
+  padding: 0px 85px 0;
   text-align: center;
   font-family: Montserrat;
   font-weight: bold;
@@ -553,6 +554,8 @@ body {
 }
 
 .section-first__button {
+  font-size: 26px;
+  color: white;
   padding: 50px;
   display: flex;
   justify-content: center;
@@ -687,12 +690,20 @@ body {
   color: white;
 }
 
+.header-grid__address:hover {
+  color: white;
+}
+
 .header-grid__phone {
   font-family: Montserrat;
   font-weight: bold;
   font-size: 18px;
   color: white;
   line-height: 20px;
+}
+
+.header-grid__phone:hover {
+  color: white;
 }
 
 @media screen and (max-width: 768px) {
@@ -753,6 +764,10 @@ body {
   color: white;
 }
 
+.header-grid__fb-link:hover {
+  color: #f0145a;
+}
+
 /*block-carousel */
 .carousel.carousel-txt {
   display: flex;
@@ -778,6 +793,7 @@ body {
   margin: 0;
   max-width: 485px;
   margin-right: 120px;
+  padding: 20px 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -874,7 +890,7 @@ body {
 }
 
 .carousel.carousel-txt .carousel-indicators__button.active:after {
-  background-color: red;
+  background-color: #f0145a;
 }
 
 .txt--white {
@@ -901,7 +917,14 @@ body {
 }
 
 .card-content__link {
-  margin-bottom: 10px;
+  margin: 0 15px;
+}
+
+.card-content__title {
+  margin: 0 15px 60px;
+}
+
+.link-content {
   font-family: Montserrat;
   font-weight: bold;
   font-size: 14px;
@@ -911,7 +934,7 @@ body {
   position: relative;
 }
 
-.card-content__link::after {
+.link-content::after {
   content: "";
   border: solid #24a3ff;
   border-width: 0 3px 3px 0;
@@ -924,23 +947,26 @@ body {
   margin-top: 10px;
 }
 
-.card-content__link:hover {
+.link-content:hover {
   color: #f0145a;
 }
 
-.card-content__link:hover:after {
+.link-content:hover:after {
   border-color: #f0145a;
 }
 
-.card-content__title {
-  padding: 10px 0;
+.title {
   font-family: Montserrat;
   font-weight: bold;
   font-size: 38px;
   line-height: 46px;
+}
+
+.card-content__title {
   background: -webkit-linear-gradient(213deg, #ef8080, #f0145a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  padding: 10px 0;
 }
 
 .container-header {
@@ -983,6 +1009,10 @@ body {
   margin: 80px 15px 55px;
   display: flex;
   justify-content: center;
+}
+
+.team__link {
+  margin-bottom: 10px;
 }
 
 .team__container {
@@ -1122,7 +1152,7 @@ body {
   background-color: #f5f5fa;
 }
 
-.publications__content {
+.publications__wrapper {
   max-width: 1720px;
   margin: 0 auto;
   padding: 30px 60px 0;
@@ -1130,41 +1160,32 @@ body {
 
 .publications__title {
   margin-bottom: 30px;
+  padding: 10px 0;
+  background: -webkit-linear-gradient(213deg, #ef8080, #f0145a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.publications__sub-title {
-  margin-top: 15px;
-  margin-bottom: 15px;
+.row__post {
+  padding: 0;
+  margin: 15px 0;
+  height: 93%;
 }
 
-.publications__img {
-  width: 100%;
+.test {
+  height: 430px;
 }
 
 .post {
   background-color: white;
   border-radius: 9px;
-  padding: 0;
-  margin: 10px 0;
 }
 
-.row-test {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 0 30px;
+.post__img {
+  width: 100%;
 }
 
-.test-margin {
-  margin: 0;
-  padding: 0 15px;
-}
-
-.test-maks {
-  margin: 0 43px;
-}
-
-.post__content__title {
+.post__title {
   color: #24a3ff;
   font-family: Montserrat;
   font-weight: bold;
@@ -1172,16 +1193,23 @@ body {
   line-height: 20px;
 }
 
-.post__content__sub-title {
+.post__sub-title {
   color: #b3b3ba;
   font-family: Montserrat;
   font-weight: bold;
   font-size: 12px;
   line-height: 15px;
   text-transform: uppercase;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
-.post__content__underlining {
+.row__content {
+  margin: 0;
+  padding: 0 15px;
+}
+
+.boundary-line {
   border: 2px solid #e6e6f0;
   background-color: #e6e6f0;
 }
@@ -1190,7 +1218,7 @@ body {
   padding: 30px 30px 30px;
 }
 
-.post__content__txt {
+.post__txt {
   font-family: Montserrat;
   font-size: 14px;
   line-height: 22px;
@@ -1199,9 +1227,14 @@ body {
 }
 
 /* Footer*/
-.footer {
+.footer__bg {
   padding: 30px 56px;
   background-color: #f5f5fa;
+}
+
+.footer__wrap {
+  max-width: 1519px;
+  margin: 0 auto;
 }
 
 .footer__underscore {
@@ -1217,11 +1250,6 @@ body {
 .footer__contact {
   display: flex;
   align-items: center;
-}
-
-.test__footer {
-  max-width: 1519px;
-  margin: 0 auto;
 }
 
 .footer__content {
