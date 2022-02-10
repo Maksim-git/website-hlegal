@@ -1,0 +1,32 @@
+@import "../scss/reset";
+@import "../scss/colors";
+@import "../scss/media";
+
+@media screen and (max-width: 1050px) {
+  .header-grid {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "info"
+      "logo"
+      "nav";
+  }
+  .nav-menu {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+.mg-top_60 {
+  margin-top: 60px;
+}
+.nav-active {
+  color: $dark-pink;
+  box-shadow: 0px 4px 0px #f0145a;
+}
+
+.col__title {
+  transition: 0.3s ease;
+  &:hover {
+    cursor: pointer;
+    color: $dark-pink;
+  }
+}

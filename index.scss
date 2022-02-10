@@ -1,7 +1,6 @@
 @import "./scss/reset";
 @import "./scss/colors";
 @import "./scss/media";
-@import "./page-services/page-services";
 
 body {
   font-family: "Montserrat", sans-serif;
@@ -198,6 +197,11 @@ $br-bottom-left: 0 0 0 15px;
   }
 }
 
+.nav-active {
+  color: $dark-pink;
+  box-shadow: 0px 4px 0px #f0145a;
+}
+
 .header-grid__button {
   border-radius: 8px;
   padding: 5px;
@@ -239,8 +243,9 @@ $br-bottom-left: 0 0 0 15px;
   font-family: Montserrat;
   font-size: 16px;
   color: $white;
+  transition: 0.3s ease;
   &:hover {
-    color: $white;
+    color: $smudged-lips;
   }
 }
 .header-grid__phone {
@@ -249,8 +254,9 @@ $br-bottom-left: 0 0 0 15px;
   font-size: 18px;
   color: $white;
   line-height: 20px;
+  transition: 0.3s ease;
   &:hover {
-    color: $white;
+    color: $smudged-lips;
   }
 }
 
