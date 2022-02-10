@@ -767,14 +767,6 @@ body {
   border-color: #f0145a;
 }
 
-.header-grid__fb-link {
-  color: white;
-}
-
-.header-grid__fb-link:hover {
-  color: #f0145a;
-}
-
 /*block-carousel */
 .carousel.carousel-txt {
   display: flex;
