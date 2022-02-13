@@ -1,6 +1,7 @@
 @import "../scss/reset";
 @import "../scss/colors";
 @import "../scss/media";
+@import "../scss/txt";
 
 @media screen and (max-width: 1050px) {
   .header-grid {
@@ -29,4 +30,13 @@
     cursor: pointer;
     color: $dark-pink;
   }
+}
+.card-content {
+  margin: 0 auto;
+  max-width: 1615px;
+  padding: 60px;
+}
+
+.container-header {
+  max-width: 1500px;
 }

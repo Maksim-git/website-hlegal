@@ -1,6 +1,7 @@
 @import "./scss/reset";
 @import "./scss/colors";
 @import "./scss/media";
+@import "./scss/txt";
 
 body {
   font-family: "Montserrat", sans-serif;
@@ -95,7 +96,7 @@ $br-bottom-left: 0 0 0 15px;
   flex-direction: column;
   justify-content: space-between;
   &__header {
-    padding: 50px 50px 0;
+    padding: 50px 60px 0;
     font-size: 26px;
     color: $white;
   }
@@ -479,9 +480,6 @@ $br-bottom-left: 0 0 0 15px;
 }
 
 .card-content__title {
-  background: -webkit-linear-gradient(213deg, $light-coral, $dark-pink);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   padding: 10px 0;
 }
 .container-header {
@@ -540,9 +538,6 @@ $br-bottom-left: 0 0 0 15px;
   font-weight: bold;
   font-size: 38px;
   line-height: 46px;
-  background: -webkit-linear-gradient(213deg, $light-coral, $dark-pink);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   max-width: 1140px;
 }
 .team__name {
@@ -657,9 +652,6 @@ $br-bottom-left: 0 0 0 15px;
   &__title {
     margin-bottom: 30px;
     padding: 10px 0;
-    background: -webkit-linear-gradient(213deg, $light-coral, $dark-pink);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
   }
 }
 
@@ -726,7 +718,7 @@ $br-bottom-left: 0 0 0 15px;
 }
 
 .footer__wrap {
-  max-width: 1519px;
+  max-width: 1600px;
   margin: 0 auto;
 }
 

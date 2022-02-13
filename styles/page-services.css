@@ -442,6 +442,19 @@ a {
   }
 }
 
+.txt-linear-gradient {
+  background: -webkit-linear-gradient(213deg, #ef8080, #f0145a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.txt-fonts {
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 26px;
+  color: white;
+}
+
 @media screen and (max-width: 1050px) {
   .header-grid {
     grid-template-columns: 1fr;
@@ -469,4 +482,14 @@ a {
 .col__title:hover {
   cursor: pointer;
   color: #f0145a;
+}
+
+.card-content {
+  margin: 0 auto;
+  max-width: 1615px;
+  padding: 60px;
+}
+
+.container-header {
+  max-width: 1500px;
 }

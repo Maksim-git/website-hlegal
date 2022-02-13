@@ -442,6 +442,19 @@ a {
   }
 }
 
+.txt-linear-gradient {
+  background: -webkit-linear-gradient(213deg, #ef8080, #f0145a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.txt-fonts {
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 26px;
+  color: white;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -538,7 +551,7 @@ body {
 }
 
 .section-first__header {
-  padding: 50px 50px 0;
+  padding: 50px 60px 0;
   font-size: 26px;
   color: white;
 }
@@ -962,9 +975,6 @@ body {
 }
 
 .card-content__title {
-  background: -webkit-linear-gradient(213deg, #ef8080, #f0145a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   padding: 10px 0;
 }
 
@@ -1031,9 +1041,6 @@ body {
   font-weight: bold;
   font-size: 38px;
   line-height: 46px;
-  background: -webkit-linear-gradient(213deg, #ef8080, #f0145a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   max-width: 1140px;
 }
 
@@ -1160,9 +1167,6 @@ body {
 .publications__title {
   margin-bottom: 30px;
   padding: 10px 0;
-  background: -webkit-linear-gradient(213deg, #ef8080, #f0145a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .row__post {
@@ -1232,7 +1236,7 @@ body {
 }
 
 .footer__wrap {
-  max-width: 1519px;
+  max-width: 1600px;
   margin: 0 auto;
 }
 
