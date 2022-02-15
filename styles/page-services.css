@@ -455,6 +455,11 @@ a {
   color: white;
 }
 
+.dividing-line {
+  border: 2px solid #e6e6f0;
+  background-color: #e6e6f0;
+}
+
 @media screen and (max-width: 1050px) {
   .header-grid {
     grid-template-columns: 1fr;

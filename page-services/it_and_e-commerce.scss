@@ -32,3 +32,35 @@
   padding: 18px 30px;
   color: $white;
 }
+
+.our-services {
+  margin: 0 auto;
+  &__wrap {
+    max-width: 1420px;
+    padding: 0 60px;
+  }
+}
+.our-services__title {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  margin: 30px 0 30px;
+}
+.our-services__list {
+  list-style: disc;
+  color: $red-scarlet;
+}
+.our-services__item {
+  margin-bottom: 15px;
+}
+.our-services__block {
+  max-width: 575px;
+}
+.our-services__content {
+  display: flex;
+  justify-content: space-between;
+}
+.dividing-line {
+  border: 2px solid $lavender-grey;
+  background-color: $lavender-grey;
+}

@@ -18,6 +18,11 @@
   color: white;
 }
 
+.dividing-line {
+  border: 2px solid #e6e6f0;
+  background-color: #e6e6f0;
+}
+
 .section-gradient {
   margin-bottom: 80px;
 }
@@ -49,4 +54,43 @@
 .button__sevice {
   padding: 18px 30px;
   color: white;
+}
+
+.our-services {
+  margin: 0 auto;
+}
+
+.our-services__wrap {
+  max-width: 1420px;
+  padding: 0 60px;
+}
+
+.our-services__title {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  margin: 30px 0 30px;
+}
+
+.our-services__list {
+  list-style: disc;
+  color: #f0145a;
+}
+
+.our-services__item {
+  margin-bottom: 15px;
+}
+
+.our-services__block {
+  max-width: 575px;
+}
+
+.our-services__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dividing-line {
+  border: 2px solid #cacadb;
+  background-color: #cacadb;
 }
