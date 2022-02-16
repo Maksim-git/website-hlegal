@@ -554,20 +554,20 @@ $br-bottom-left: 0 0 0 15px;
   color: $gray;
   line-height: 22px;
 }
-.button {
+.button-nav {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 60px;
 }
-.button-circle {
+.button-nav__circle {
   height: 16px;
   width: 16px;
   border-radius: 50%;
   margin: 0 15px;
   background-color: #7fc1f1;
   border: none;
-  &__active {
+  &-active {
     background-color: #24a3ff;
   }
 }
