@@ -42,7 +42,7 @@
   margin: 0 auto;
   &__wrap {
     max-width: 1420px;
-    padding: 0 70px 60px;
+    padding: 0 30px 60px;
   }
 }
 .our-services__title {
@@ -68,7 +68,6 @@
 .our-services__content {
   display: flex;
   justify-content: space-between;
-  // flex-wrap: wrap;
 }
 .dividing-line {
   border: 2px solid $lavender-grey;

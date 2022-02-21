@@ -460,7 +460,7 @@ a {
   background-color: #e6e6f0;
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1040px) {
   .header-grid {
     grid-template-columns: 1fr;
     grid-template-areas: "info" "logo" "nav";

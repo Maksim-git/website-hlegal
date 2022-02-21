@@ -147,7 +147,7 @@ $br-bottom-left: 0 0 0 15px;
   display: flex;
   justify-content: flex-end;
 }
-@media screen and (max-width: 851px) {
+@media screen and (max-width: 870px) {
   .header-grid {
     grid-template-columns: 1fr;
     grid-template-areas:
@@ -169,7 +169,7 @@ $br-bottom-left: 0 0 0 15px;
   font-size: 16px;
   line-height: 20px;
   color: $white;
-  transition: 0.3s ease;
+  // transition: 0.3s ease;
   padding: 0 0 5px;
   &:hover {
     color: $dark-pink;
