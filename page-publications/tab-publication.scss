@@ -1,4 +1,8 @@
 @import "../scss/colors";
+@import "../scss/reset";
+@import "../scss/media";
+@import "../scss/txt";
+
 .header-grid__button_color {
   color: $gray;
 }
@@ -10,4 +14,15 @@
 }
 .nav-menu__link_color {
   color: $light-blue;
+}
+
+@media screen and (max-width: $md) {
+  .header-grid__info {
+    background: $ghost-white;
+  }
+}
+
+.navbar-light .navbar-toggler {
+  border-color: transparent;
+  box-shadow: none;
 }
