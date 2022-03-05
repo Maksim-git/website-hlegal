@@ -460,6 +460,23 @@ a {
   background-color: #e6e6f0;
 }
 
+.monserrat-bold {
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mr-15 {
+  margin-right: 15px;
+}
+
 @media screen and (max-width: 1040px) {
   .header-grid {
     grid-template-columns: 1fr;
