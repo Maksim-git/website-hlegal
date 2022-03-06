@@ -1,0 +1,96 @@
+.button {
+  background: #24a3ff;
+  box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+  border-radius: 12px;
+  border: none;
+}
+
+.txt-linear-gradient {
+  background: -webkit-linear-gradient(213deg, #ef8080, #f0145a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.txt-fonts {
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 26px;
+  color: white;
+}
+
+.dividing-line {
+  border: 2px solid #e6e6f0;
+  background-color: #e6e6f0;
+}
+
+.monserrat-bold {
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mr-15 {
+  margin-right: 15px;
+}
+
+.modal {
+  background-color: #323264;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-xl {
+  max-width: 650px;
+}
+
+.modal-content {
+  border-radius: 12px;
+  background-color: #f5f5fa;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-body__input {
+  border: none;
+  height: 55px;
+  border-radius: 10px;
+  padding-left: 15px;
+}
+
+.modal-body__input-message {
+  border: none;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-top: 20px;
+  padding-bottom: 120px;
+}
+
+.modal-body__title {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #b3b3ba;
+}
+
+.modal-body__button {
+  height: 55px;
+  color: white;
+}

@@ -1,0 +1,54 @@
+@import "../scss/colors";
+@import "../scss/buttons";
+@import "../scss/txt";
+
+//
+.modal {
+  background-color: $dark-blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-xl {
+  max-width: 650px;
+}
+.modal-content {
+  border-radius: 12px;
+  background-color: $ghost-white;
+}
+.modal-header {
+  border-bottom: none;
+}
+.modal-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-body__input {
+  border: none;
+  height: 55px;
+  border-radius: 10px;
+  padding-left: 15px;
+}
+
+.modal-body__input-message {
+  border: none;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-top: 20px;
+  padding-bottom: 120px;
+}
+
+.modal-body__title {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: $gray;
+}
+.modal-body__button {
+  height: 55px;
+  color: $white;
+}
