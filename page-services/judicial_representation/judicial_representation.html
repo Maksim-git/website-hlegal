@@ -23,6 +23,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../../styles/it_and_e-commerce.css" />
+    <link rel="stylesheet" href="../../styles/popup_help_you.css" />
     <link rel="stylesheet" href="../../styles/index.css" />
     <!-- <link
       rel="stylesheet"
@@ -145,7 +146,65 @@
             field of information technology in Ukraine.
           </p>
         </div>
-        <button class="button button__sevice">Free consultation</button>
+        <!-- Button when the click, opened modal window -->
+        <button
+          class="button button__sevice"
+          type="button"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModalXl"
+        >
+          Free consultation
+        </button>
+
+        <!--  -->
+        <div
+          class="modal fade"
+          id="exampleModalXl"
+          tabindex="-1"
+          aria-labelledby="exampleModalXlLabel"
+          aria-hidden="true"
+          style="display: none"
+        >
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="title txt-linear-gradient" id="exampleModalXlLabel">
+                  We would like to help you
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <input
+                  class="modal-body__input mb-15"
+                  type="text"
+                  placeholder="Name"
+                />
+                <textarea
+                  class="modal-body__input-message mb-30"
+                  name="comment"
+                  placeholder="Message"
+                ></textarea>
+                <h4 class="modal-body__title mb-15">How to answer you?</h4>
+                <input
+                  class="modal-body__input mb-15"
+                  type="text"
+                  placeholder="Phone number"
+                />
+                <input
+                  class="modal-body__input mb-30"
+                  type="text"
+                  placeholder="Email"
+                />
+                <button class="button modal-body__button">Send message</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <!--  -->
       <section class="our-services our-services__wrap">

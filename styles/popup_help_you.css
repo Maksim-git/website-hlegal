@@ -51,6 +51,10 @@
   max-width: 650px;
 }
 
+.modal-dialog {
+  margin: 17.75rem auto;
+}
+
 .modal-content {
   border-radius: 12px;
   background-color: #f5f5fa;
@@ -58,11 +62,13 @@
 
 .modal-header {
   border-bottom: none;
+  padding: 2rem 2rem 1rem;
 }
 
 .modal-body {
   display: flex;
   flex-direction: column;
+  padding: 1rem 2rem 2rem;
 }
 
 .modal-body__input {
