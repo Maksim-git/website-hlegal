@@ -178,30 +178,37 @@
                   aria-label="Close"
                 ></button>
               </div>
-              <div class="modal-body">
+              <form action="https://fom.in.ua/echo" class="modal-body">
                 <input
                   class="modal-body__input mb-15"
                   type="text"
+                  name="name"
+                  required
                   placeholder="Name"
                 />
                 <textarea
                   class="modal-body__input-message mb-30"
                   name="comment"
                   placeholder="Message"
+                  name="message"
                 ></textarea>
                 <h4 class="modal-body__title mb-15">How to answer you?</h4>
                 <input
                   class="modal-body__input mb-15"
-                  type="text"
+                  type="number"
+                  required
                   placeholder="Phone number"
+                  name="phone_number"
                 />
                 <input
                   class="modal-body__input mb-30"
-                  type="text"
+                  required
+                  type="email"
                   placeholder="Email"
+                  name="email"
                 />
                 <button class="button modal-body__button">Send message</button>
-              </div>
+              </form>
             </div>
           </div>
         </div>
