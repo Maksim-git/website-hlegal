@@ -1,0 +1,27 @@
+@import "../scss/colors";
+.wrapper-bt {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  &_color {
+    background-color: $bright-gray;
+  }
+}
+.wrapper-bt__toggle {
+  background-color: $white;
+  width: 105px;
+  height: 38px;
+  color: $dark-blue;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 10px;
+  border: none;
+  &:last-child {
+    background-color: $bright-gray;
+  }
+  &:last-child:hover {
+    background-color: $ghost-white;
+  }
+}

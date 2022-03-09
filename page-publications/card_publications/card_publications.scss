@@ -1,0 +1,29 @@
+@import "../../scss/buttons";
+@import "../../scss/colors";
+@import "../../scss/txt";
+@import "../../scss/toggle-bt";
+
+.main-wrap {
+  min-height: 0;
+}
+.section-first {
+  min-height: 0;
+}
+
+.button__card {
+  width: 210px;
+  height: 55px;
+  color: $white;
+}
+
+.publication__flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.publications__toggle {
+  width: 220px;
+  height: 42px;
+  border-radius: 10px;
+}
