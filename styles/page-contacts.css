@@ -1,7 +1,13 @@
-.contacts {
+.undeerline {
+  border: 2px solid #e6e6f0;
+  background-color: #e6e6f0;
+}
+
+.main-container {
   margin: 0 60px;
 }
 
-.contact-data {
+.main-container__contacts {
   max-width: 650px;
+  margin-top: 60px;
 }

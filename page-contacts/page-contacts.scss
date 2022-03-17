@@ -1,6 +1,8 @@
-.contacts {
+@import "../scss/underline";
+.main-container {
   margin: 0 60px;
 }
-.contact-data {
+.main-container__contacts {
   max-width: 650px;
+  margin-top: 60px;
 }
