@@ -490,7 +490,7 @@ a {
 }
 
 .nav-menu__link_color {
-  color: #24a3ff !important;
+  color: #24a3ff;
 }
 
 @media screen and (max-width: 768px) {

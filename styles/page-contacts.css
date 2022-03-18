@@ -1,13 +1,142 @@
-.undeerline {
+.underline {
   border: 2px solid #e6e6f0;
   background-color: #e6e6f0;
 }
 
+.txt-linear-gradient {
+  background: -webkit-linear-gradient(213deg, #ef8080, #f0145a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.txt-fonts {
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 26px;
+  color: white;
+}
+
+.dividing-line {
+  border: 2px solid #e6e6f0;
+  background-color: #e6e6f0;
+}
+
+.monserrat-bold {
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mr-15 {
+  margin-right: 15px;
+}
+
+.main-wrap {
+  min-height: 88vh !important;
+}
+
 .main-container {
-  margin: 0 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-wrapper {
+  padding: 65px 60px 60px;
 }
 
 .main-container__contacts {
+  width: 100%;
+}
+
+.contact-data__address {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+}
+
+.contacts-data__underline {
+  margin: 30px 0;
+}
+
+.contact-data__address_color {
+  color: #323264;
+}
+
+.contacts-data__tel {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+
+.contacts-data__tel_color {
+  color: #323264;
+}
+
+.contacts-data__email {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+}
+
+.contacts-data__email_color {
+  color: #24a3ff;
+}
+
+.contacts-data__fb {
+  display: flex;
+  align-items: center;
+}
+
+.content-fb__txt {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  margin-left: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.content-fb__txt_color {
+  color: #24a3ff;
+}
+
+.main-container__form {
   max-width: 650px;
-  margin-top: 60px;
+  border: none;
+  margin-left: 60px;
+}
+
+.main-wrapper__content {
+  max-width: 1400px;
+  margin: auto;
+}
+
+@media screen and (max-width: 870px) {
+  .main-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .main-container__form {
+    margin-left: 0px;
+  }
+  .main-container__form {
+    margin-top: 60px;
+  }
+}
+
+.content-fb__txt_color:hover {
+  color: #f0145a;
 }
