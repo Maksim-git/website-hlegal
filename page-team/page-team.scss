@@ -1,0 +1,60 @@
+@import "../scss/colors";
+@import "../scss/txt";
+
+.header-grid__button_color,
+.header-grid__address_color,
+.header-grid__phone_color {
+  color: $gray;
+}
+.nav-menu__link_colors {
+  color: $light-blue;
+}
+.navbar-light .navbar-toggler {
+  border-color: $white;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.wrapper-team {
+  max-width: 1400px;
+  margin: 55px auto;
+}
+.wrapper-team__title {
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  margin-bottom: 60px;
+  max-width: 1360px;
+}
+// card person
+.post__contacts {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.post__full-name {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: $dark-blue;
+}
+.post__job-person {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: $gray;
+  padding-top: 7px;
+}
+.post__button {
+  width: 32px;
+  height: 32px;
+  background-color: $lavander;
+  border-radius: 50%;
+  padding-left: 4px;
+}

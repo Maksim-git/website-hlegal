@@ -1,0 +1,105 @@
+.txt-linear-gradient {
+  background: -webkit-linear-gradient(213deg, #ef8080, #f0145a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.txt-fonts {
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 26px;
+  color: white;
+}
+
+.dividing-line {
+  border: 2px solid #e6e6f0;
+  background-color: #e6e6f0;
+}
+
+.monserrat-bold {
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mr-15 {
+  margin-right: 15px;
+}
+
+.header-grid__button_color,
+.header-grid__address_color,
+.header-grid__phone_color {
+  color: #b3b3ba;
+}
+
+.nav-menu__link_colors {
+  color: #24a3ff;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: white;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.wrapper-team {
+  max-width: 1400px;
+  margin: 55px auto;
+}
+
+.wrapper-team__title {
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  margin-bottom: 60px;
+  max-width: 1360px;
+}
+
+.post__contacts {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.post__full-name {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #323264;
+}
+
+.post__job-person {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #b3b3ba;
+  padding-top: 7px;
+}
+
+.post__button {
+  width: 32px;
+  height: 32px;
+  background-color: #ededf7;
+  border-radius: 50%;
+  padding-left: 4px;
+}
+
+.post__full-name:hover,
+:after {
+  color: red;
+  border-color: black !important;
+}
