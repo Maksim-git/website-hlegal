@@ -1,0 +1,45 @@
+@import "../../scss/colors";
+@import "../../scss/underline";
+
+.biography {
+  display: flex;
+  &__wrapper {
+    max-width: 1360px;
+    max-height: 500px;
+    margin: 65px auto 60px;
+    padding: 0 60px;
+    min-height: 65vh;
+    position: relative;
+  }
+}
+.biography__content {
+  padding-left: 60px;
+}
+.biography__full-name {
+  padding-bottom: 15px;
+}
+.biography__contacts {
+  display: flex;
+  align-items: center;
+}
+.biography__email,
+.biography__profile {
+  color: $light-blue;
+}
+.biography__underline {
+  margin: 30px 0;
+}
+.wrap-content__title {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: $dark-blue;
+}
+.txt-fonts_color {
+  color: $black;
+}
+.biography__txt {
+  margin-bottom: 30px;
+}

@@ -19,12 +19,13 @@
 .wrapper-team {
   max-width: 1400px;
   margin: 55px auto;
+  padding: 0 60px;
 }
 .wrapper-team__title {
   text-align: center;
   font-family: "Montserrat";
   font-weight: 700;
-  font-size: 38px;
+  font-size: 36px;
   line-height: 46px;
   margin-bottom: 60px;
   max-width: 1360px;
@@ -57,4 +58,9 @@
   background-color: $lavander;
   border-radius: 50%;
   padding-left: 4px;
+}
+
+.post__full-name:hover {
+  transition: 0.3s ease;
+  color: $red-scarlet;
 }
